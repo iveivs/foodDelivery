@@ -1,0 +1,19 @@
+@import url("./reset.scss");
+@import url("./variables/global.scss");
+@import url("./themes/normal.scss");
+@import url("./themes/dark.scss");
+
+body {
+    font: var(--font-size-s);
+    color: var(--primary-color);
+}
+.app {
+    min-height: 100vh;
+    background: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    color: var(--icon-color)
+}
